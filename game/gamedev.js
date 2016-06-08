@@ -7,9 +7,8 @@ $("#death").hide();
 
 $("#mob4").hide();
 $("#mob5").hide();
-$("#mob6").hide();
-$("#mob7").hide();
-$("#mob8").hide();
+$("#moonman").hide();
+
 
 $("#refresh").hide();
 

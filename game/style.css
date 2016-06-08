@@ -124,5 +124,26 @@ body {
  #refresh{
     color:#AE0001;
  }
-    
+    #moonman{
+        position:absolute;
+        margin-top:150px;
+        margin-left:1000px;
+    }
+    #moonman2{
+        position:absolute;
+        margin-top:150px;
+        margin-left:600px;
+
+    }
+
+    #door{
+        height:200px;
+    width:100px;
+    position:absolute;
+    margin-top:365px;
+    margin-left:400px;
+ background-size:200px 200px;
+ background-color:#FF0000;
+
+    }
 

@@ -4,10 +4,12 @@ var jodie = $("#jodie");
 $( "#jodie" ).hide();
 $( "#mob3" ).hide();
 $("#death").hide();
+$("#moonman2").hide();
 
 $("#mob4").hide();
 $("#mob5").hide();
 $("#moonman").hide();
+$("#door").hide();
 
 
 $("#refresh").hide();
@@ -36,14 +38,28 @@ $("#mob4").click(function(){
 $("#mob5").click(function(){
     $( "#mob5" ).hide();
     $( "#moonman" ).show();
+    $("#moonman").animate({
+        left: '-=400px'});
 });
 
 
 
 $("#moonman").click(function(){
+   
     $( "#moonman" ).hide();
-    //BRUNO AND MYRON CHOOSE HOW YOUR GAME WILL END HERE!!
+    $("#moonman2").show();
+    
 });
+$("#moonman2").click(function(){
+    $("#door").show();
+   $("#moonman2").hide();
+});
+$("#door").click(function(){
+    $("#jodie").hide();
+    $("#door").hide();
+    $( "#exploreBody" ).css("backgroundImage","url(img/end1.png)");
+});
+
 
 
 });//end document.ready

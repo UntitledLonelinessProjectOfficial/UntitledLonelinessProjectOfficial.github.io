@@ -4,7 +4,7 @@ var jodie = $("#jodie");
 $( "#jodie" ).hide();
 $( "#mob3" ).hide();
 $("#death").hide();
-$("#squid").hide();
+
 $("#mob4").hide();
 $("#mob5").hide();
 $("#mob6").hide();
@@ -26,7 +26,7 @@ $("#next").click(function(){
 
 $("#mob3").click(function(){
     $( "#mob3" ).hide();
-    $( "#squid" ).show();
+    $( "#mob4" ).show();
 });//end mob3 click
 
 $("#mob4").click(function(){
@@ -36,21 +36,13 @@ $("#mob4").click(function(){
 
 $("#mob5").click(function(){
     $( "#mob5" ).hide();
-    $( "#mob6" ).show();
+    $( "#moonman" ).show();
 });
 
-$("#mob6").click(function(){
-    $( "#mob6" ).hide();
-    $( "#mob7" ).show();
-});
 
-$("#mob7").click(function(){
-    $( "#mob7" ).hide();
-    $( "#mob8" ).show();
-});
 
-$("#mob8").click(function(){
-    $( "#mob8" ).hide();
+$("#moonman").click(function(){
+    $( "#moonman" ).hide();
     //BRUNO AND MYRON CHOOSE HOW YOUR GAME WILL END HERE!!
 });
 
